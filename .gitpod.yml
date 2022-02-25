@@ -9,4 +9,4 @@ tasks:
     command: gitpod/start.sh
 vscode:
   extensions:
-    - jakebecker.elixir-ls
+    - elixir-lsp.elixir-ls
