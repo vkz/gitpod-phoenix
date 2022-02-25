@@ -14,5 +14,5 @@ RUN apt-get update \
 
 # Allow gitpod group to edit 
 RUN true \
- 	&& sudo chown -R root:gitpod /home/gitpod/.mix \
+    && sudo chown -R root:gitpod /home/gitpod/.mix \
     && sudo chmod -R g+rw /home/gitpod/.mix
